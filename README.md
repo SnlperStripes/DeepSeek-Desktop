@@ -30,6 +30,6 @@ If you prefer to build the app yourself, follow these steps:
 ### Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/yourusername/deepseek_app.git
+git clone https://github.com/SnlperStripes/Deepseek-Desktop.git
 cd deepseek_app
 pnpm install
