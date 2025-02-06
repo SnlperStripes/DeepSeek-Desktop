@@ -33,3 +33,8 @@ If you prefer to build the app yourself, follow these steps:
 git clone https://github.com/SnlperStripes/Deepseek-Desktop.git
 cd deepseek_app
 pnpm install
+
+
+### License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
