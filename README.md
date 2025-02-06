@@ -1,0 +1,1 @@
+        This Project is going to allow everyone to use Deepseek on their Windows Desktop. Rendering it more efficient and allowing the people to use it more easily and efficient.
