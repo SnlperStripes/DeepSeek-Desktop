@@ -12,13 +12,24 @@
   "app": {
     "windows": [
       {
-        "title": "deepseek_app",
-        "width": 800,
-        "height": 600
+        "title": "DeepSeek Chat",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false,
+        "center": true,
+        "url": "https://chat.deepseek.com",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
       }
     ],
     "security": {
-      "csp": null
+      "csp": {
+        "default-src": ["'self'", "https://chat.deepseek.com"],
+        "img-src": ["'self'", "https:", "data:"],
+        "style-src": ["'self'", "'unsafe-inline'", "https:"],
+        "connect-src": ["'self'", "https://chat.deepseek.com", "wss://chat.deepseek.com"],
+        "script-src": ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://chat.deepseek.com"]
+      }
     }
   },
   "bundle": {
